@@ -1,4 +1,4 @@
-
+//Elaborado por Xavier Encarnacion
 output "login_command_vm1" {
   value = "ssh -i id_rsa.pem ${var.admin_username}@${azurerm_public_ip.public_ip.0.ip_address}"
 }
@@ -11,3 +11,5 @@ output "login_command_vm3" {
 output "login_command_vm4" {
   value = "ssh -i id_rsa.pem ${var.admin_username}@${azurerm_public_ip.public_ip.3.ip_address}"
 }
+
+//Elaborado por Xavier Encarnacion

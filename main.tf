@@ -1,3 +1,4 @@
+//Elaborado por Xavier Encarnacion
 resource "azurerm_resource_group" "rg" {
   name     = "${var.prefix}-rg"
   location = var.location
@@ -33,3 +34,4 @@ resource "azurerm_linux_virtual_machine" "example" {
 }
 //Canonical:0001-com-ubuntu-server-focal:20_04-lts:latest
 //Canonical:UbuntuServer:20_04-lts:latest
+//Elaborado por Xavier Encarnacion
